@@ -1,0 +1,82 @@
+/* Color Values */
+.color-example{
+    color: rgb(133,197,91);
+    background-color: green;
+}
+
+/* Background Color */
+.background-example{
+    background-color:#ff0000;
+}
+
+/*Background Images*/
+.background-position-exmaple{
+    background-image: url("background.jpg");
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+/* Opacity and Transparency */
+.opacity-example {
+    background-color: rgba(255, 0, 0, 0.5);
+}
+
+/* Image Sizing and Alignment */
+.image-sizing-example{
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Selectors */
+/* Element Selector */
+h1{
+    color:blueviolet;
+}
+
+/* Class Selector */
+/*  .class-name {} */
+
+/* Id Selector */
+#id-selector-example{
+    background-color: aquamarine;
+}
+
+/* Universal Selector
+#{
+    background-image: url("background.jpg");
+}
+*/
+
+/* Grouping Selector */
+h2,
+p{
+    color:#ff0000;
+}
+
+/* Descendant Selector */
+.descendant li {
+	color: green;
+}
+
+/* Pseudo classes */
+button:hover{
+    color: blueviolet;
+    background-color: aqua;
+}
+
+button:focus{
+    border: 2px solid blue;
+}
+
+/* Pseudo Element */
+.pseudo-element::before{
+    content: "This is the start of the quote: ";
+    font-style: italic;
+}
+
+.pseudo-element::after{
+    content: " - End quote";
+    font-style: italic;
+}

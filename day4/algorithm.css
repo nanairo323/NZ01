@@ -1,0 +1,18 @@
+p{
+    color: yellow !important;
+}
+
+/* Earlier rule */
+p{
+    color: red;
+}
+
+/* Later rule - the one that will be applied */
+p {
+	color: blue;
+}
+
+/* Specificity */
+#my-paragraph{
+    color:brown;
+}
