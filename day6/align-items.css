@@ -1,0 +1,27 @@
+<style>
+			.flex-item-container {
+				background-color: beige;
+				color: #fff;
+				padding: 20px;
+				height: 300px;
+				display: flex;
+				align-items: flex-start;
+			}
+			.flex-item-1 {
+				background-color: lightslategray;
+				padding: 10px;
+			}
+			.flex-item-2 {
+				background-color: lightblue;
+				padding: 10px;
+			}
+			.flex-item-3 {
+				background-color: lightcoral;
+				padding: 10px;
+				/* font-size: 30px; */
+			}
+			.flex-item-4 {
+				background-color: lightgreen;
+				padding: 10px;
+			}
+</style>
