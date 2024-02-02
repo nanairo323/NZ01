@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Modern JS Part 1</title>
+</head>
+<body>
+    <script>
+        let stringVariable = "I am a string";
+        let number = 10;
+
+        console.log(Math.floor(number));
+
+        //traditional way of string manipulation
+        console.log("I want to buy" + number + "apples");
+
+        //template literal
+        //string interpolation
+        console.log(`I want to buy ${number} apple`);
+
+        console.log(`
+            This is the first sentence.
+            This is the second sentence.
+            This is the third sentence.`);
+        
+        function greet(){
+            console.log("Hello, welcome to the world of functions");
+        }
+        const sum = function (a,b){
+            return a + b;
+        }
+
+        //arrow functions
+        const subtract = (a,b) =>{
+            return a - b;
+        }
+
+        const multiply = (a,b) => a - b;
+
+        const name = firstName => console.log (`Hi, ${firstName}`)
+
+        const greet = () => console.log("Hello, welcome to the world of functions");
+    </script>
+</body>
+</html>

@@ -1,0 +1,77 @@
+Exercise 1: Function Basics
+Create a function called greet that takes a name as a parameter and logs a greeting message with the name to the console. 
+Then, call the function with your name.
+
+Exercise 2: Function Expression
+Create a function expression named add that takes two numbers as parameters and returns their sum. 
+Call the function to add 5 and 7, then log the result.
+
+Exercise 3: Is Even
+Write a function called isEven that takes a number as a parameter and returns true if it's even and false if it's odd. 
+Test the function with various numbers.
+
+Exercise 4: Local vs. Global Scope
+Declare a global variable globalVar with a value. Then, create a function that declares a local variable with the same name globalVar. 
+Log the values of both variables inside and outside the function. What do you observe?
+
+Exercise 5: Function Hoisting
+Write a function named hoistedFunction and call it before the function declaration in your code. Does it work? Explain the behavior.
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Activity </title>
+</head>
+<body>
+    <script>
+        //1
+        function greet(name){
+            console.log("Hello,"+ name);
+        }
+        greet("Lisa");
+
+
+        //2
+        function add(a,b){
+            return a + b;
+        }
+        let result = add(5,3);
+        console.log(result);
+
+
+        //3
+        function isEven(number) {
+            return number % 2 == 0;
+        }
+        console.log(isEven(2));
+        console.log(isEven(5));
+
+
+        //4
+            // Local variable 
+        function global() {
+            var globalVar = "I am local variable";
+            console.log(globalVar);
+        }
+        global();
+            // Global variable
+        var globalVar = "I am global variable";
+        function globalVar() {
+            console.log(globalVar); 
+        }
+        console.log(globalVar);
+
+
+        //5
+        function hoistedFunction() {
+            console.log("Function Hoisting!");
+        }
+        hoistedFunction();
+
+    </script>
+
+
+</body>
+</html>

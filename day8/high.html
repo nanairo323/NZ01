@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> High-Order Functions </title>
+</head>
+<body>
+    <script>
+
+        //function
+        //callback function
+        function add(a,b){
+            return a + b;
+        }
+
+        function subtract(a,b){
+            return a - b;
+        }
+
+
+        //higher order function
+        function calculate(num1,num2,operation){
+            return operation(num1, num2);
+        }
+
+        let result = calculate(5,3,subtract);
+        console.log(result);
+    </script>
+</body>
+</html>
