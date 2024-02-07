@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title> Modern JS Part 2 </title>
+</head>
+<body>
+    <script>
+    // Destructuring
+    let num = [1,2,3];
+
+    console.log((firstNum = num[0]));
+
+    let [first, second, third] = num
+    console.log(`${first}, ${second}, ${third}`);
+
+    // object destructuring
+    const number1 = {
+        fistNum: 1,
+        secondNum: 2,
+        thirdNum: 3,
+    };
+
+    const{firstNum, secondNum, thirdNum} = numbers1;
+    console.log(firstNum, secondNum, thirdNum);
+
+    
+    </script>
+</body>
+</html>
