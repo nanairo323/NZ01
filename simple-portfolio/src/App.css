@@ -3,10 +3,11 @@ body{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: rgb(253, 202, 211);
 }
 
 header{
-  background-color:#333;
+  background-color:#333333;
   color: #fff;
   text-align: center;
   padding: 20px;
@@ -18,7 +19,58 @@ section{
   border: 1px solid #ccc;
 }
 
+.navbar {
+  background-color: #007bff;
+  color: rgb(218, 39, 99);
+  padding: 10px 0;
+  text-align: center;
+  margin: 0 auto; 
+  width: 80%; 
+}
 
-p{
-    color:rgb(216, 142, 154);
+.aboutpage p {
+  color: rgb(218, 39, 99);
+  text-align: center;
+  margin: 0 auto; 
+  width: 80%;
+}
+
+.aboutpage h2 {
+  color: rgb(26, 24, 24); 
+  text-align: center;
+  margin: 0 auto; 
+  width: 80%;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  width: 200px; 
+  height: auto;
+}
+
+
+
+.headerpage p{
+  color: rgb(226, 99, 169);
+
+}
+
+
+form {
+  width: 50%; 
+  max-width: 400px; 
+
+}
+
+
+.message label {
+  display: block;
+  margin-bottom: 10px; 
+  
+}
+
+.submit{
+  display: flex;
+  justify-content: center;
 }

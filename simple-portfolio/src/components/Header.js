@@ -3,8 +3,10 @@ import React from "react";
 const Header = () => {
 	return (
 		<header>
-			<h1>Hi, I'm Abbi!</h1>
-			<p>I'm a Web Developer</p>
+			<section className="headerpage"> 
+			<h1>Hi, I'm Lisa!</h1>
+			<p>I'm a Web Developer beginner</p>
+			</section>
 		</header>
 	);
 };
